@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav{
+    height: 50px;
+    background-color: skyblue;
+    color: white;
+    font-family: 'Sunflower', serif;
+}
+
+nav h1{
+    float: left;
+    font-size: 28px;
+    line-height: 180%;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul a{
+    float: right;
+    text-decoration: none;
+    width: 60px;
+    line-height: 50%;
+    color: white;
+    padding: 4px;
+}
+
+nav ul a:hover{
+    color: coral;
+}
+
+header{
+    background-image: url('img/backimg.jpg');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#self_content{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Sunflower', serif;
+}
+
+header h1{
+    margin-top: 0px;
+    padding-top: 100px;
+    color: lightpink;
+}
+
+header p {
+    color: white;
+    font-weight: bold;
+}
+
+section{
+    font-family: 'Sunflower', serif;
+}
+
+.section_img {
+    width: 300px;
+    float: left;
+    margin: 100px 10px;
+}
+
+section h2{
+    text-align: center;
+}
+
+.section02{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.section03{
+    font-family: 'Sunflower', serif;
+}
+
+footer{
+    background-color: lightgray;
+    font-family: 'Sunflower', serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
